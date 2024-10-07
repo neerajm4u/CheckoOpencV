@@ -32,7 +32,7 @@ find_package(OpenCV REQUIRED)
 add_library(native-lib SHARED
         # List C/C++ source files with relative paths to this CMakeLists.txt.
         native-lib.cpp
-        opencv-utils.cpp
+        opencvUtils.cpp
 )
 
 
